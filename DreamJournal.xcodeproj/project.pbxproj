@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03EF97961ED15E1200864891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97951ED15E1200864891 /* main.m */; };
+		03EF97991ED15E1200864891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97981ED15E1200864891 /* AppDelegate.m */; };
+		03EF979C1ED15E1200864891 /* DreamJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03EF979A1ED15E1200864891 /* DreamJournal.xcdatamodeld */; };
+		03EF979F1ED15E1200864891 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF979E1ED15E1200864891 /* MasterViewController.m */; };
+		03EF97A21ED15E1200864891 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97A11ED15E1200864891 /* DetailViewController.m */; };
+		03EF97A51ED15E1200864891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EF97A31ED15E1200864891 /* Main.storyboard */; };
+		03EF97A71ED15E1200864891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03EF97A61ED15E1200864891 /* Assets.xcassets */; };
+		03EF97AA1ED15E1200864891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EF97A81ED15E1200864891 /* LaunchScreen.storyboard */; };
+		03EF97B51ED15E1200864891 /* DreamJournalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97B41ED15E1200864891 /* DreamJournalTests.m */; };
+		03EF97C01ED15E1200864891 /* DreamJournalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97BF1ED15E1200864891 /* DreamJournalUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03EF97B11ED15E1200864891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EF97891ED15E1200864891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EF97901ED15E1200864891;
+			remoteInfo = DreamJournal;
+		};
+		03EF97BC1ED15E1200864891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03EF97891ED15E1200864891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03EF97901ED15E1200864891;
+			remoteInfo = DreamJournal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EF97911ED15E1200864891 /* DreamJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EF97951ED15E1200864891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03EF97971ED15E1200864891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03EF97981ED15E1200864891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03EF979B1ED15E1200864891 /* DreamJournal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamJournal.xcdatamodel; sourceTree = "<group>"; };
+		03EF979D1ED15E1200864891 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		03EF979E1ED15E1200864891 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		03EF97A01ED15E1200864891 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		03EF97A11ED15E1200864891 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		03EF97A41ED15E1200864891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03EF97A61ED15E1200864891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03EF97A91ED15E1200864891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03EF97AB1ED15E1200864891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EF97B01ED15E1200864891 /* DreamJournalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamJournalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EF97B41ED15E1200864891 /* DreamJournalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamJournalTests.m; sourceTree = "<group>"; };
+		03EF97B61ED15E1200864891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03EF97BB1ED15E1200864891 /* DreamJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		03EF97BF1ED15E1200864891 /* DreamJournalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamJournalUITests.m; sourceTree = "<group>"; };
+		03EF97C11ED15E1200864891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03EF978E1ED15E1200864891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97AD1ED15E1200864891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97B81ED15E1200864891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03EF97881ED15E1200864891 = {
+			isa = PBXGroup;
+			children = (
+				03EF97931ED15E1200864891 /* DreamJournal */,
+				03EF97B31ED15E1200864891 /* DreamJournalTests */,
+				03EF97BE1ED15E1200864891 /* DreamJournalUITests */,
+				03EF97921ED15E1200864891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03EF97921ED15E1200864891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03EF97911ED15E1200864891 /* DreamJournal.app */,
+				03EF97B01ED15E1200864891 /* DreamJournalTests.xctest */,
+				03EF97BB1ED15E1200864891 /* DreamJournalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03EF97931ED15E1200864891 /* DreamJournal */ = {
+			isa = PBXGroup;
+			children = (
+				03EF97971ED15E1200864891 /* AppDelegate.h */,
+				03EF97981ED15E1200864891 /* AppDelegate.m */,
+				03EF979D1ED15E1200864891 /* MasterViewController.h */,
+				03EF979E1ED15E1200864891 /* MasterViewController.m */,
+				03EF97A01ED15E1200864891 /* DetailViewController.h */,
+				03EF97A11ED15E1200864891 /* DetailViewController.m */,
+				03EF97A31ED15E1200864891 /* Main.storyboard */,
+				03EF97A61ED15E1200864891 /* Assets.xcassets */,
+				03EF97A81ED15E1200864891 /* LaunchScreen.storyboard */,
+				03EF97AB1ED15E1200864891 /* Info.plist */,
+				03EF979A1ED15E1200864891 /* DreamJournal.xcdatamodeld */,
+				03EF97941ED15E1200864891 /* Supporting Files */,
+			);
+			path = DreamJournal;
+			sourceTree = "<group>";
+		};
+		03EF97941ED15E1200864891 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03EF97951ED15E1200864891 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		03EF97B31ED15E1200864891 /* DreamJournalTests */ = {
+			isa = PBXGroup;
+			children = (
+				03EF97B41ED15E1200864891 /* DreamJournalTests.m */,
+				03EF97B61ED15E1200864891 /* Info.plist */,
+			);
+			path = DreamJournalTests;
+			sourceTree = "<group>";
+		};
+		03EF97BE1ED15E1200864891 /* DreamJournalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03EF97BF1ED15E1200864891 /* DreamJournalUITests.m */,
+				03EF97C11ED15E1200864891 /* Info.plist */,
+			);
+			path = DreamJournalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03EF97901ED15E1200864891 /* DreamJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EF97C41ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournal" */;
+			buildPhases = (
+				03EF978D1ED15E1200864891 /* Sources */,
+				03EF978E1ED15E1200864891 /* Frameworks */,
+				03EF978F1ED15E1200864891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamJournal;
+			productName = DreamJournal;
+			productReference = 03EF97911ED15E1200864891 /* DreamJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03EF97AF1ED15E1200864891 /* DreamJournalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EF97C71ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalTests" */;
+			buildPhases = (
+				03EF97AC1ED15E1200864891 /* Sources */,
+				03EF97AD1ED15E1200864891 /* Frameworks */,
+				03EF97AE1ED15E1200864891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EF97B21ED15E1200864891 /* PBXTargetDependency */,
+			);
+			name = DreamJournalTests;
+			productName = DreamJournalTests;
+			productReference = 03EF97B01ED15E1200864891 /* DreamJournalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03EF97BA1ED15E1200864891 /* DreamJournalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03EF97CA1ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalUITests" */;
+			buildPhases = (
+				03EF97B71ED15E1200864891 /* Sources */,
+				03EF97B81ED15E1200864891 /* Frameworks */,
+				03EF97B91ED15E1200864891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03EF97BD1ED15E1200864891 /* PBXTargetDependency */,
+			);
+			name = DreamJournalUITests;
+			productName = DreamJournalUITests;
+			productReference = 03EF97BB1ED15E1200864891 /* DreamJournalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03EF97891ED15E1200864891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Big Smash Software";
+				TargetAttributes = {
+					03EF97901ED15E1200864891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNJPB8D7PF;
+						ProvisioningStyle = Automatic;
+					};
+					03EF97AF1ED15E1200864891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNJPB8D7PF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03EF97901ED15E1200864891;
+					};
+					03EF97BA1ED15E1200864891 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = JNJPB8D7PF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 03EF97901ED15E1200864891;
+					};
+				};
+			};
+			buildConfigurationList = 03EF978C1ED15E1200864891 /* Build configuration list for PBXProject "DreamJournal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03EF97881ED15E1200864891;
+			productRefGroup = 03EF97921ED15E1200864891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03EF97901ED15E1200864891 /* DreamJournal */,
+				03EF97AF1ED15E1200864891 /* DreamJournalTests */,
+				03EF97BA1ED15E1200864891 /* DreamJournalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03EF978F1ED15E1200864891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EF97AA1ED15E1200864891 /* LaunchScreen.storyboard in Resources */,
+				03EF97A71ED15E1200864891 /* Assets.xcassets in Resources */,
+				03EF97A51ED15E1200864891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97AE1ED15E1200864891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97B91ED15E1200864891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03EF978D1ED15E1200864891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EF97A21ED15E1200864891 /* DetailViewController.m in Sources */,
+				03EF979F1ED15E1200864891 /* MasterViewController.m in Sources */,
+				03EF97991ED15E1200864891 /* AppDelegate.m in Sources */,
+				03EF97961ED15E1200864891 /* main.m in Sources */,
+				03EF979C1ED15E1200864891 /* DreamJournal.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97AC1ED15E1200864891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EF97B51ED15E1200864891 /* DreamJournalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03EF97B71ED15E1200864891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03EF97C01ED15E1200864891 /* DreamJournalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03EF97B21ED15E1200864891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EF97901ED15E1200864891 /* DreamJournal */;
+			targetProxy = 03EF97B11ED15E1200864891 /* PBXContainerItemProxy */;
+		};
+		03EF97BD1ED15E1200864891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03EF97901ED15E1200864891 /* DreamJournal */;
+			targetProxy = 03EF97BC1ED15E1200864891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03EF97A31ED15E1200864891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EF97A41ED15E1200864891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03EF97A81ED15E1200864891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03EF97A91ED15E1200864891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03EF97C21ED15E1200864891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03EF97C31ED15E1200864891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03EF97C51ED15E1200864891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03EF97C61ED15E1200864891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03EF97C81ED15E1200864891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamJournal.app/DreamJournal";
+			};
+			name = Debug;
+		};
+		03EF97C91ED15E1200864891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamJournal.app/DreamJournal";
+			};
+			name = Release;
+		};
+		03EF97CB1ED15E1200864891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamJournal;
+			};
+			name = Debug;
+		};
+		03EF97CC1ED15E1200864891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JNJPB8D7PF;
+				INFOPLIST_FILE = DreamJournalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BigSmashSoftware.DreamJournalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DreamJournal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03EF978C1ED15E1200864891 /* Build configuration list for PBXProject "DreamJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EF97C21ED15E1200864891 /* Debug */,
+				03EF97C31ED15E1200864891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03EF97C41ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EF97C51ED15E1200864891 /* Debug */,
+				03EF97C61ED15E1200864891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03EF97C71ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EF97C81ED15E1200864891 /* Debug */,
+				03EF97C91ED15E1200864891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03EF97CA1ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03EF97CB1ED15E1200864891 /* Debug */,
+				03EF97CC1ED15E1200864891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03EF979A1ED15E1200864891 /* DreamJournal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03EF979B1ED15E1200864891 /* DreamJournal.xcdatamodel */,
+			);
+			currentVersion = 03EF979B1ED15E1200864891 /* DreamJournal.xcdatamodel */;
+			path = DreamJournal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03EF97891ED15E1200864891 /* Project object */;
+}
