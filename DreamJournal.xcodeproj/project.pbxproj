@@ -17,6 +17,9 @@
 		03EF97AA1ED15E1200864891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03EF97A81ED15E1200864891 /* LaunchScreen.storyboard */; };
 		03EF97B51ED15E1200864891 /* DreamJournalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97B41ED15E1200864891 /* DreamJournalTests.m */; };
 		03EF97C01ED15E1200864891 /* DreamJournalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03EF97BF1ED15E1200864891 /* DreamJournalUITests.m */; };
+		20EE4D83B61539F27E1818D1 /* libPods-DreamJournalTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B127BF0DA2972FBB93DEAC5F /* libPods-DreamJournalTests.a */; };
+		324C3BF69E2397F85027BDB9 /* libPods-DreamJournalUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1E4B01627957C6C7EDF8CBB /* libPods-DreamJournalUITests.a */; };
+		D61E00B920ED327600144B27 /* libPods-DreamJournal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 356B7F1E73DF9BEBBA578035 /* libPods-DreamJournal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,15 @@
 		03EF97BB1ED15E1200864891 /* DreamJournalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamJournalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03EF97BF1ED15E1200864891 /* DreamJournalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamJournalUITests.m; sourceTree = "<group>"; };
 		03EF97C11ED15E1200864891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F0B0792E990285A718D802B /* Pods-DreamJournal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournal/Pods-DreamJournal.debug.xcconfig"; sourceTree = "<group>"; };
+		2F73871B1A1547088A53EDDD /* Pods-DreamJournalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournalTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournalTests/Pods-DreamJournalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		356B7F1E73DF9BEBBA578035 /* libPods-DreamJournal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamJournal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4564A3D52569F46AFDA82866 /* Pods-DreamJournalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournalUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournalUITests/Pods-DreamJournalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4D475AA00DA720722F92219F /* Pods-DreamJournal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournal.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournal/Pods-DreamJournal.release.xcconfig"; sourceTree = "<group>"; };
+		5AC01B5F45456A65431B753B /* Pods-DreamJournalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournalTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournalTests/Pods-DreamJournalTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADCE2C7C6F7EA4F99F80DCE5 /* Pods-DreamJournalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamJournalUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DreamJournalUITests/Pods-DreamJournalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B127BF0DA2972FBB93DEAC5F /* libPods-DreamJournalTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamJournalTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1E4B01627957C6C7EDF8CBB /* libPods-DreamJournalUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamJournalUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D61E00B920ED327600144B27 /* libPods-DreamJournal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20EE4D83B61539F27E1818D1 /* libPods-DreamJournalTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				324C3BF69E2397F85027BDB9 /* libPods-DreamJournalUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +105,8 @@
 				03EF97B31ED15E1200864891 /* DreamJournalTests */,
 				03EF97BE1ED15E1200864891 /* DreamJournalUITests */,
 				03EF97921ED15E1200864891 /* Products */,
+				C1D77534D1C617E24531D025 /* Pods */,
+				C7D8FEA120A2CFB01C9DAE83 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +165,29 @@
 			path = DreamJournalUITests;
 			sourceTree = "<group>";
 		};
+		C1D77534D1C617E24531D025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F0B0792E990285A718D802B /* Pods-DreamJournal.debug.xcconfig */,
+				4D475AA00DA720722F92219F /* Pods-DreamJournal.release.xcconfig */,
+				2F73871B1A1547088A53EDDD /* Pods-DreamJournalTests.debug.xcconfig */,
+				5AC01B5F45456A65431B753B /* Pods-DreamJournalTests.release.xcconfig */,
+				ADCE2C7C6F7EA4F99F80DCE5 /* Pods-DreamJournalUITests.debug.xcconfig */,
+				4564A3D52569F46AFDA82866 /* Pods-DreamJournalUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C7D8FEA120A2CFB01C9DAE83 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				356B7F1E73DF9BEBBA578035 /* libPods-DreamJournal.a */,
+				B127BF0DA2972FBB93DEAC5F /* libPods-DreamJournalTests.a */,
+				F1E4B01627957C6C7EDF8CBB /* libPods-DreamJournalUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03EF97C41ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournal" */;
 			buildPhases = (
+				BB936581F735CA27B877C33A /* [CP] Check Pods Manifest.lock */,
 				03EF978D1ED15E1200864891 /* Sources */,
 				03EF978E1ED15E1200864891 /* Frameworks */,
 				03EF978F1ED15E1200864891 /* Resources */,
+				C03AD75DA1BC182121F295FD /* [CP] Embed Pods Frameworks */,
+				BEA46789B17EC118FA85F3FE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,9 +215,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03EF97C71ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalTests" */;
 			buildPhases = (
+				DA2DE83E62EC07B31B558215 /* [CP] Check Pods Manifest.lock */,
 				03EF97AC1ED15E1200864891 /* Sources */,
 				03EF97AD1ED15E1200864891 /* Frameworks */,
 				03EF97AE1ED15E1200864891 /* Resources */,
+				EB42FB4064AF0343140B473E /* [CP] Embed Pods Frameworks */,
+				C4912EC336984BF95D03B166 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -190,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03EF97CA1ED15E1200864891 /* Build configuration list for PBXNativeTarget "DreamJournalUITests" */;
 			buildPhases = (
+				D5ADAE61DA33BBD6A3E59ABC /* [CP] Check Pods Manifest.lock */,
 				03EF97B71ED15E1200864891 /* Sources */,
 				03EF97B81ED15E1200864891 /* Frameworks */,
 				03EF97B91ED15E1200864891 /* Resources */,
+				BA23CF37620DA97BE422917A /* [CP] Embed Pods Frameworks */,
+				136823A74A6E4DAAAD1DBFDD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -278,6 +327,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		136823A74A6E4DAAAD1DBFDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournalUITests/Pods-DreamJournalUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA23CF37620DA97BE422917A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournalUITests/Pods-DreamJournalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB936581F735CA27B877C33A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEA46789B17EC118FA85F3FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournal/Pods-DreamJournal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C03AD75DA1BC182121F295FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournal/Pods-DreamJournal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4912EC336984BF95D03B166 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournalTests/Pods-DreamJournalTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5ADAE61DA33BBD6A3E59ABC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2DE83E62EC07B31B558215 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EB42FB4064AF0343140B473E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DreamJournalTests/Pods-DreamJournalTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		03EF978D1ED15E1200864891 /* Sources */ = {
@@ -437,6 +624,7 @@
 		};
 		03EF97C51ED15E1200864891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0B0792E990285A718D802B /* Pods-DreamJournal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
@@ -449,6 +637,7 @@
 		};
 		03EF97C61ED15E1200864891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D475AA00DA720722F92219F /* Pods-DreamJournal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
@@ -461,6 +650,7 @@
 		};
 		03EF97C81ED15E1200864891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F73871B1A1547088A53EDDD /* Pods-DreamJournalTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
@@ -474,6 +664,7 @@
 		};
 		03EF97C91ED15E1200864891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AC01B5F45456A65431B753B /* Pods-DreamJournalTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
@@ -487,6 +678,7 @@
 		};
 		03EF97CB1ED15E1200864891 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCE2C7C6F7EA4F99F80DCE5 /* Pods-DreamJournalUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
 				INFOPLIST_FILE = DreamJournalUITests/Info.plist;
@@ -499,6 +691,7 @@
 		};
 		03EF97CC1ED15E1200864891 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4564A3D52569F46AFDA82866 /* Pods-DreamJournalUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = JNJPB8D7PF;
 				INFOPLIST_FILE = DreamJournalUITests/Info.plist;
